@@ -19,7 +19,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Consulta si el numero: <%=request.getAttribute("num")%> es par o ipmar.</h1>
+    <h1 class="mb-5">Consulta si el numero: <%=request.getAttribute("num")%> es par o ipmar.</h1>
     <div class="row">
         <div class="col-12 col-sm-12">
             El numero <%=request.getAttribute("num")%> es: <%= request.getAttribute("parImpar")%>

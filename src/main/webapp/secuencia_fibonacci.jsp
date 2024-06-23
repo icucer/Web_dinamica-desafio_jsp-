@@ -19,7 +19,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Consulta secuencia Fibonacci del numero: <%=request.getAttribute("num")%></h1>
+    <h1 class="mb-5">Consulta secuencia Fibonacci del numero: <%=request.getAttribute("num")%></h1>
     <div class="row">
         <div class="col-12 col-sm-12">
             La secuencia Fibonacci del numero <%=request.getAttribute("num")%> es: <%= request.getAttribute("secuenciaFibonacci")%>
